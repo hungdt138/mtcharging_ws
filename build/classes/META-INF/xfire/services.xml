@@ -1,0 +1,8 @@
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+  <service>
+    <name>mtcharging_ws</name>
+    <namespace>http://iwebservices.nms.com</namespace>
+    <serviceClass>com.nms.iwebservice.ChargingServices</serviceClass>
+    <implementationClass>com.nms.iwebservice.impl.ChargingImpl</implementationClass>
+  </service>
+</beans>
